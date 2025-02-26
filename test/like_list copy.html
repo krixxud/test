@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/like_list.css">
+    <title>내가 찜한 맛집</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">내가 찜한 맛집</h1>
+        <a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="hidden">뒤로가기</span></a>
+        <nav>
+            <h2 class="hidden">주 메뉴</h2>
+            <ul>
+                <li><a href="#" class="small">홈</a></li>
+                <li><a href="#" class="small">검색</a></li>
+                <li><a href="#" class="small">찜한 맛집</a></li>
+                <li><a href="#" class="small">예약내역</a></li>
+                <li><a href="#" class="small">마이페이지</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 카테고리 탭 -->
+    <ul class="tab-menu">
+        <li class="like active">
+            <p class="title">찜 목록</p>
+        </li>
+        <li class="delist">
+            <p class="title">델리스트</p>
+        </li>
+    </ul>
+
+    <main>
+        <section>
+            <h2 class="hidden">저장된 맛집 목록</h2>
+
+            <!-- 예약 카드 영역 -->
+            <div class="reservation-card">
+                    <div class="rest-info">
+                        <img src="../images/food.png" alt="">
+                        <div class="rest">
+                            <div class="rest-place">
+                                <p class="restaurant-name sub-title1">제주고씨 든렘지 레스토랑</p>
+                                <p class="restaurant-location small">양식 · 대구 동구 신천동</p>
+                            </div>
+                            <div class="rest-time">
+                                <p class="restaurant-time"><i class="fa fa-clock-o clock" aria-hidden="true"></i><span>11:30 - 21:00</span></p>
+                                <p class="all-day">연중무휴</p>
+                            </div>
+                        </div>
+                    </div>
+                <a href="#" class="view-details">예약하러 가기 <i class="fa fa-angle-right right" aria-hidden="true"></i></a>
+            </div>
+
+            <!-- 예약 카드 영역 -->
+            <div class="reservation-card">
+                <div class="rest-info">
+                    <img src="../images/food.png" alt="">
+                    <div class="rest">
+                        <div class="rest-place">
+                            <p class="restaurant-name sub-title1">제주고씨 든렘지 레스토랑</p>
+                            <p class="restaurant-location small">양식 · 대구 동구 신천동</p>
+                        </div>
+                        <div class="rest-time">
+                            <p class="restaurant-time"><i class="fa fa-clock-o clock" aria-hidden="true"></i><span>11:30 - 21:00</span></p>
+                            <p class="all-day">연중무휴</p>
+                        </div>
+                    </div>
+                </div>
+            <a href="#" class="view-details">예약하러 가기 <i class="fa fa-angle-right right" aria-hidden="true"></i></a>
+        </div>
+        </section>
+    </main>
+</body>
+
+</html>
